@@ -1,7 +1,7 @@
 def oxford_comma(array)
   array2 = []
   if array.size == 1 
-    return array 
+    array.join 
   else
     array.each do |x|
       y = x << ", "
