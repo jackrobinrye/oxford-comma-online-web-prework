@@ -6,11 +6,7 @@ def oxford_comma(array)
     array = array.insert(1, " and ")
     array.join
   else
-    array.each do |x|
-      y = x << ", "
-      array2 << y
-    end
-    array2.join
-    return array2
+    size = array.size 
+    
   end
 end
