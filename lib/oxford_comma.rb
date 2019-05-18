@@ -13,3 +13,9 @@ def oxford_comma(array)
     array << last
   end
 end
+
+def other_oxford_comma(array)
+  function arrayToSentence (arr) {
+    var last = arr.pop();
+    return arr.join(', ') + ' and ' + last;
+}
